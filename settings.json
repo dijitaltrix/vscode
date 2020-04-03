@@ -3,17 +3,75 @@
     "editor.renderWhitespace": "all",
     "workbench.iconTheme": "macos-classic-icons",
     "workbench.colorCustomizations": {
-        "terminal.foreground": "#212121",
-        "terminal.background": "#f3f3f3",
+        // input boxes
+        "input.foreground": "#212121",
+        "input.background": "#c3c3c3",
+
+        // activity bar
+        "activityBar.background": "#f3f3f3",
+        "activityBar.foreground": "#333435",
+        "activityBar.border": "#ddd",
+
+        // sidebar
         "sideBar.background": "#f3f3f3",
         "sideBar.foreground": "#212121",
         "sideBarSectionHeader.background": "#cccccc",
         "sideBarSectionHeader.border": "#999",
+
+        // line numbers gutter
         "editorGutter.background": "#333435",
-        "activityBar.background": "#f3f3f3",
-        "activityBar.foreground": "#333435",
-        "activityBar.border": "#ddd"
+
+        // list items
+        "list.activeSelectionBackground": "#d3d3d3",
+        "list.inactiveSelectionBackground": "#d3d3d3",
+        "list.hoverBackground": "#d3d3d3",
+
+        // lower statusbar
+        "statusBar.foreground": "#212121",
+        "statusBar.background": "#f3f3f3",
+
+        // top tabs colours
+        "tab.activeBackground": "#d3d3d3",
+        "tab.activeForeground": "#212121",
+        "tab.activeBorder": "#d3d3d3",
+        "tab.activeBorderTop": "#d3d3d3",
+        "tab.border": "#999",
+        "tab.inactiveBackground": "#bcbcbc",
+        "tab.inactiveForeground": "#313131",
+        "tab.unfocusedActiveBackground": "#bcbcbc",
+
+        // breadcrumbs
+        "breadcrumb.background": "#999",
+        "breadcrumb.foreground": "#333",
+
+        // terminal colours
+        "terminal.foreground": "#212121",
+        "terminal.background": "#f3f3f3",
+
+        // app titlebar and explorer section colours
+        "titleBar.border": "#bbb",
+        "titleBar.activeBackground": "#d3d3d3",
+        "titleBar.activeForeground": "#212121",
+        "titleBar.inactiveBackground": "#f3f3f3",
+
+        // side and dropdown panels
+        "panel.border": "#999",
+        "panel.background": "#bcbcbc",
+        "panelInput.border": "#d3d3d3",
+        "panelTitle.activeBorder": "#bbb",
+        "panelTitle.activeForeground": "#d3d3d3",
+        "panel.dropBackground": "#ff0000",
+        "panelTitle.activeForeground": "#222",
+        "panelTitle.inactiveForeground": "#333",
+
+        "menu.background": "#ff0000",
+        "menu.selectionBackground": "#ff0000",
+        "menu.selectionBorder": "#ff0000",
     },
-    "breadcrumbs.enabled": false,
-    "editor.minimap.enabled": false
-} 
+    "editor.minimap.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.eol": "\n",
+    "breadcrumbs.icons": false,
+    "workbench.settings.openDefaultSettings": true
+}
