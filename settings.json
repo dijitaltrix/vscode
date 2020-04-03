@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "Tomorrow Night",
+    "editor.renderWhitespace": "all",
+    "workbench.iconTheme": "macos-classic-icons",
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#212121",
+        "terminal.background": "#f3f3f3",
+        "sideBar.background": "#f3f3f3",
+        "sideBar.foreground": "#212121",
+        "sideBarSectionHeader.background": "#cccccc",
+        "sideBarSectionHeader.border": "#999",
+        "editorGutter.background": "#333435",
+        "activityBar.background": "#f3f3f3",
+        "activityBar.foreground": "#333435",
+        "activityBar.border": "#ddd"
+    },
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false
+} 
